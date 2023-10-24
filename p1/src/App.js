@@ -4,7 +4,6 @@ import IMG from './IMG';
 import T2 from './T2';
 import T3 from './T3';
 import { useState } from 'react';
-import Routing from './Routing';
 
 
 function App() {
