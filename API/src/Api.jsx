@@ -5,9 +5,9 @@ import axios from 'axios';
 const Api = () => {
     const [Image, setImage] = useState([]);
     // for automatically function call
-    useEffect(() => {
-      getImages()
-    }, [])
+    // useEffect(() => {
+    //   getImages()
+    // }, [])
     
     const getImages= async ()=>{
         try{
