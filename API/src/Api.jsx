@@ -1,9 +1,14 @@
-import {useState,React} from 'react'
+import {useState,useEffect,React} from 'react'
 import './Api.css';
 import axios from 'axios';
 
 const Api = () => {
-    const [Image, setImage] = useState([])
+    const [Image, setImage] = useState([]);
+    // for automatically function call
+    useEffect(() => {
+      getImages()
+    }, [])
+    
     const getImages= async ()=>{
         try{
             const getimage=await axios.get("https://picsum.photos/v2/list")
