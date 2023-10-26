@@ -1,4 +1,5 @@
 import './App.css';
+import DigiClock from './DigiClock';
 import Event from './Event'
 import Hook from './Hook'
 import Time from './Time';
@@ -9,6 +10,7 @@ function App() {
     <Event/>
     <Hook/>
     <Time/>
+    <DigiClock/>
     </>
   );
 }
