@@ -3,6 +3,7 @@ import DigiClock from './DigiClock';
 import Event from './Event'
 import Form from './Form';
 import Hook from './Hook'
+import Login from './Login';
 import Time from './Time';
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
     <Time/>
     <DigiClock/>
     <Form/>
+    <Login/>
     </>
   );
 }
