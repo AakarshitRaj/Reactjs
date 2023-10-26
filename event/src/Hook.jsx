@@ -2,7 +2,7 @@ import React from 'react'
 import { useState } from 'react'
 
 const Hook = () => {
-    const [cnt, setcnt] = useState('0')
+    const [cnt, setcnt] = useState(0)
     const inc=()=>{
         console.log('clicked')
         setcnt(cnt+1)
