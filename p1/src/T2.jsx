@@ -10,13 +10,9 @@ function T2() {
 <>
     <p className='name'>Name={student.name}</p>
     my marks={mark}
-    <button onClick={()=>{
-        {setmark(66)}//change to 66
-    }
-}
->Update</button>
-    
-</>
+    <button onClick={()=>{setmark(66)}}>Update</button>
+
+    </>
   )
 }
 export default T2

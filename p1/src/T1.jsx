@@ -1,10 +1,11 @@
 import React from 'react'
 
-
-function T1() {
+const T1 = (niti) => {
   return (
-    <div>Test 1</div>
+    <div>
+      Test 1 for react {niti.v}
+    </div>
   )
 }
 
-export default T1;
+export default T1

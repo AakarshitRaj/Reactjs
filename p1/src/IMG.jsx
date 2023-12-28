@@ -5,7 +5,6 @@ const user = {
     imageSize: 200,
   }
 function IMG() {
-    
   return (
     <div>
    <h1>{user.name}</h1>
